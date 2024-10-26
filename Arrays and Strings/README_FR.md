@@ -1,13 +1,13 @@
-## Assignments 01
-## Title: Arrays and Strings
-- Student: **Oussama KHOUYA**
-- Supervisor: **Prof. Loubna AMINOU**
-- Course: **Object-Oriented Programming in Java**
-- Submission Date: **26-10-2024**
+## Travaux Pratiques
+## Titre : Les tableaux et les chaînes de caractères
+- Etudiant : **Oussama KHOUYA**
+- Encadrente : **Pr. Loubna AMINOU**
+- Cours : **Programmation Orientée Objet Java** 
+- Date de soumission : **26-10-2024**
 
-### EX1: Managing Students' Grades
-The program allows the user to enter the grades of a certain number of students and perform several operations on these grades, such as sorting them, calculating the average, finding the maximum and minimum grades, and counting how many students received a particular grade.
-0. **Entering Grades**: The user inputs the number of students and the corresponding grades.
+### EX1 : Gestion des notes des étudiants
+Le programme permet à l'utilisateur de saisir les notes d'un certain nombre d'étudiants et d'effectuer plusieurs opérations sur ces notes, comme les trier, calculer la moyenne, trouver les notes maximale et minimale, et compter combien d'étudiants ont obtenu une note particulière.
+0. **Saisie des notes** : L'utilisateur entre le nombre d'étudiants et les notes correspondantes.
 ```java
 Scanner scanner = new Scanner(System.in);
 
@@ -22,13 +22,13 @@ for (int i = 0; i < nombreEtudiants; i++) {
     notes[i] = scanner.nextDouble();
 }
 ```
-1. **Sort and Display the List of Grades**: The program uses `Arrays.sort()` to sort the array of grades in ascending order.
+1. **Trier et afficher la liste des notes** : Le programme utilise `Arrays.sort()` pour trier le tableau des notes en ordre croissant.
 ```java 
 // 1. Trier et afficher la liste des notes
 Arrays.sort(notes);
 System.out.println("Liste des notes triées : " + Arrays.toString(notes));
 ```
-2. **Calculate and Display the Average Grade** : The average of the grades is calculated and displayed.
+2. **Calculer et afficher la note moyenne** : La moyenne des notes est calculée et affichée.
 ```java 
 // 2. Calculer et afficher la note moyenne
 double somme = 0;
@@ -38,7 +38,7 @@ for (double note : notes) {
 double moyenne = somme / nombreEtudiants;
 System.out.println("La note moyenne est : " + moyenne);
 ```
-3. **Display the Maximum and Minimum Grades**: The program displays the maximum and minimum grades after sorting the grades.
+3. **Afficher la note maximale et minimale** : Le programme affiche la note maximale et la note minimale après le tri des notes.
 ```java 
 // 3. Afficher la note maximale et minimale
 double noteMaximale = notes[nombreEtudiants - 1];
@@ -46,7 +46,7 @@ double noteMinimale = notes[0];
 System.out.println("La note maximale est : " + noteMaximale);
 System.out.println("La note minimale est : " + noteMinimale);
 ```
-4. **Display the Number of Students with a Specific Grade** : The user enters a grade, and the program counts how many students received that grade.
+4. **Afficher le nombre d'étudiants ayant une note spécifique** : L'utilisateur entre une note, et le programme compte combien d'étudiants ont obtenu cette note.
 ```java
   // 4. Afficher le nombre d'étudiants ayant une note saisie par l'utilisateur
 System.out.print("Entrez une note pour voir combien d'étudiants l'ont obtenue : ");
