@@ -4,6 +4,7 @@
 - Encadrente : **Pr. Loubna AMINOU**
 - Cours : **Programmation Orientée Objet Java** 
 - Date de soumission : **26-10-2024**
+- [github](https://github.com/khouya-ai/poo-java)
 
 ### EX1 : Gestion des notes des étudiants
 Le programme permet à l'utilisateur de saisir les notes d'un certain nombre d'étudiants et d'effectuer plusieurs opérations sur ces notes, comme les trier, calculer la moyenne, trouver les notes maximale et minimale, et compter combien d'étudiants ont obtenu une note particulière.

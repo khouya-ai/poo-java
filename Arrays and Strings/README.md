@@ -4,6 +4,7 @@
 - Supervisor: **Prof. Loubna AMINOU**
 - Course: **Object-Oriented Programming in Java**
 - Submission Date: **26-10-2024**
+- [github](https://github.com/khouya-ai/poo-java)
 
 ### EX1: Managing Students' Grades
 The program allows the user to enter the grades of a certain number of students and perform several operations on these grades, such as sorting them, calculating the average, finding the maximum and minimum grades, and counting how many students received a particular grade.
