@@ -122,7 +122,7 @@ salaire=18000.0
 ---
 ### EX3 : gestion de commandes pour une entreprise qui vend des ordinateurs
 ### Diagramme de classes
-![Diagramme de Classe](src/site/khouya/EX3/DiagramClass.png)
+![Diagramme de Classe](src/site/khouya/EX3/DiagramClass.jpg)
 ### L'implémentation de Diagramme de classes 
 1. Classe `Ordinateur`:
    - Cette classe possède  des attributs privés pour stocker les informations sur un ordinateur : nom, marque, prix, description, nombreEnStock, et categorie.
