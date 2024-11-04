@@ -6,6 +6,8 @@
 - Date de soumission : **04-11-2024**
 - Code source sur [github](https://github.com/khouya-ai/poo-java)
 
+La gestion des exceptions est une notion très importante dans la programmation Java. Elle permet de gérer les événements inattendus qui peuvent se produire durant l'exécution d'un programme.<br>
+Ce TP permet d'apprendre cette notion avec des exercices pratique: 
 ### Exercice 1 : TropViteException
 L'exercice consiste à créer une exception `TropViteException` pour signaler une vitesse excessive. La classe `Vehicule` teste une vitesse, et si elle dépasse 90, l'exception est lancée et la pile d’appel s’affiche
 1. Classe `TropViteException`  hérite de Exception et prend un entier (vitesse) comme paramètre. Elle passe un message personnalisé au super-constructeur.
