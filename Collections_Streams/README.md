@@ -1,4 +1,4 @@
-## Travaux Pratiques :  Collection et Stream
+## Travaux Pratiques :  Collections et Streams
 - Etudiant : **Oussama KHOUYA**
 - Encadrente : **Pr. Loubna AMINOU**
 - Cours : **Programmation Orientée Objet Java** 
@@ -6,7 +6,7 @@
 - Code source sur [github](https://github.com/khouya-ai/poo-java)
 
 
-## Collection
+## Collections
 Les collections en Java sont des structures de données dynamiques permettant de stocker et de manipuler des ensembles d'objets. les trois exercices suivants permet de mieux comprendre le fonctionnement des List, Map, Set. 
 ### Exercice 1 : Les listes
 L'exercice consiste à créer une simple application pour manipuler une liste d’objets de type produit.
@@ -135,7 +135,7 @@ L'exercice consiste à créer deux objets de type HashSet et de calculer leurs i
    union.addAll(groupeB);
    System.out.println("\nUnion des deux groupes : " + union);
    ```
-## Stream
+## Streams
 Un Stream est une séquence d'éléments qui prend en charge diverses opérations, comme filter, map, et reduce. Ces opérations peuvent être exécutées en mode séquentiel ou parallèle, ce qui rend les streams particulièrement utiles.
 ### Exercice 1 :
 L'exercice consiste à créer une simple application pour effectuer des opérations sur une liste de mots en utilisant les Streams.
