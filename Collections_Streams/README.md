@@ -41,6 +41,21 @@ L'exercice consiste à créer une simple application pour manipuler une liste d�
         produitModifie.setNom("ProduitModifie");
         produitModifie.setPrix(120.0);
    ```
+### Exemple de sortie
+```java
+Liste des produits après ajout : 
+Produit{id=1, nom='Produit1', prix=100.0}
+Produit{id=2, nom='Produit2', prix=200.0}
+Produit{id=3, nom='Produit3', prix=150.0}
+
+Liste des produits après suppression : 
+Produit{id=1, nom='Produit1', prix=100.0}
+Produit{id=3, nom='Produit3', prix=150.0}
+
+Liste des produits après modification : 
+Produit{id=1, nom='ProduitModifie', prix=120.0}
+Produit{id=3, nom='Produit3', prix=150.0}
+```
 ### Exercice 2 : Les Maps
 L'exercice consiste à créer un Hashmap qui stocke les notes des étudiants et les methodes pour les manipuler.
 1. Créer un map qde type Hashmap
@@ -104,6 +119,33 @@ L'exercice consiste à créer un Hashmap qui stocke les notes des étudiants et 
         map1.forEach((v,w) -> System.out.println("("+ v + ", "+ w +")"));
     }
    ```
+### Exemple de sortie
+```java
+Liste des notes après insertion : 
+(Ahmed, 17.0)
+(Khalid, 20.0)
+(Samira, 15.0)
+(Ali, 16.0)
+
+Liste des notes après Augmentation de la note de Ahmed : 
+(Ahmed, 18.0)
+(Khalid, 20.0)
+(Samira, 15.0)
+(Ali, 16.0)
+
+Liste des notes après Suppression de la note de Ahmed : 
+(Khalid, 20.0)
+(Samira, 15.0)
+(Ali, 16.0)
+
+La taille du map : 3
+
+Note moyenne : 17.0
+Note maximale : Khalid => 20,00
+Note minimale : Samira => 15,00
+
+Y a-t-il une note égale à 20 ? Oui
+```
 ### Exercice 3 : Les Sets
 L'exercice consiste à créer deux objets de type HashSet et de calculer leurs interdections et unions.
 1. Créer deux Sets de type HashSet nommées groupeA et groupeB, contenant les nom des étudiants des deux groupes A et B.
@@ -135,6 +177,15 @@ L'exercice consiste à créer deux objets de type HashSet et de calculer leurs i
    union.addAll(groupeB);
    System.out.println("\nUnion des deux groupes : " + union);
    ```
+### Exemple de sortie
+```java
+Groupe A : [Ahmed, Samir, Sami, Ali]
+Groupe B : [Samira, Hind, Hassna, Rim]
+
+Intersection des deux groupes : []
+
+Union des deux groupes : [Ahmed, Samira, Hind, Hassna, Samir, Rim, Sami, Ali]
+```
 ## Streams
 Un Stream est une séquence d'éléments qui prend en charge diverses opérations, comme filter, map, et reduce. Ces opérations peuvent être exécutées en mode séquentiel ou parallèle, ce qui rend les streams particulièrement utiles.
 ### Exercice 1 :
@@ -192,7 +243,18 @@ L'exercice consiste à créer une simple application pour effectuer des opérati
                 .toList();
         System.out.println("Mots avec index : " + motsAvecIndex);
    ```
-### Exercice 1 :
+### Exemple de sortie
+```java
+[pomme, banane, cerise, date, figue, raisin]
+Mots contenant 'a' : [banane, date, raisin]
+Mots inversés de longueur > 3 : [emmop, enanab, esirec, etad, eugif, nisiar]
+Caractères de mots contenant 'e' : [p, o, m, m, e, b, a, n, a, n, e, c, e, r, i, s, e, d, a, t, e, f, i, g, u, e]
+Mots en majuscules : [POMME, BANANE, CERISE, DATE, FIGUE, RAISIN]
+Longueurs des mots : [5, 6, 6, 4, 5, 6]
+Liste aplatie de tous les caractères : [p, o, m, m, e, b, a, n, a, n, e, c, e, r, i, s, e, d, a, t, e, f, i, g, u, e, r, a, i, s, i, n]
+Mots avec index : [pomme - 0, banane - 1, cerise - 2, date - 3, figue - 4, raisin - 5]
+```
+### Exercice 2 :
 L'exercice consiste à créer une simple application pour crée une liste d'employés dans une ArrayList et effectue les opérations demandées.
 1. Calculer la somme totale des salaires de tous les employés
    ```java
@@ -236,5 +298,13 @@ L'exercice consiste à créer une simple application pour crée une liste d'empl
                 .orElse("");
         System.out.println("Noms concaténés des employés : " + nomsConcatenes);
    ```
-   
+### Exemple de sortie
+```java
+Somme totale des salaires : 23500.0
+Employés triés par nom : [Employe{nom='Ahmed', departement='Informatique', salaire=7000.0}, Employe{nom='Ali', departement='Informatique', salaire=5000.0}, Employe{nom='Rim', departement='Ressources Humaines', salaire=3000.0}, Employe{nom='Samira', departement='Marketing', salaire=4000.0}, Employe{nom='Zineb', departement='Finance', salaire=4500.0}]
+Employé avec le salaire le plus bas : Employe{nom='Rim', departement='Ressources Humaines', salaire=3000.0}
+Employés avec un salaire supérieur à 4500.0 : [Employe{nom='Ali', departement='Informatique', salaire=5000.0}, Employe{nom='Ahmed', departement='Informatique', salaire=7000.0}]
+Employé avec le salaire le plus élevé : Employe{nom='Ahmed', departement='Informatique', salaire=7000.0}
+Noms concaténés des employés : Ali, Samira, Ahmed, Rim, Zineb
+```
 

@@ -9,6 +9,7 @@ public class EX1 {
 
     public static void main(String[] args) {
         List<String> mots = Arrays.asList("pomme", "banane", "cerise", "date", "figue", "raisin");
+        System.out.println(mots);
 
         // 1. Filtrer les mots qui contiennent la lettre "a".
         List<String> contientA = mots.stream()

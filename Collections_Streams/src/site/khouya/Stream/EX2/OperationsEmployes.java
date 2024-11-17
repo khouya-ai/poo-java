@@ -3,14 +3,13 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 public class OperationsEmployes {
     public static void main(String[] args) {
         List<Employe> employes = new ArrayList<>();
         employes.add(new Employe("Ali", "Informatique", 5000));
         employes.add(new Employe("Samira", "Marketing", 4000));
-        employes.add(new Employe("Ahled", "Informatique", 7000));
+        employes.add(new Employe("Ahmed", "Informatique", 7000));
         employes.add(new Employe("Rim", "Ressources Humaines", 3000));
         employes.add(new Employe("Zineb", "Finance", 4500));
 
