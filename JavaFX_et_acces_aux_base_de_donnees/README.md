@@ -6,6 +6,7 @@
 - Date de soumission : **01-12-2024**
 - Code source sur [github](https://github.com/khouya-ai/poo-java)
 
+L'objectif de ce TP est de créer une application Java afin de gérer les professeurs des départements.
 ### 1. Etablir la conception de l’application avec un diagramme de classe.
 ![Diagramme de Classe](img/DiagClass.jpg)
 ### 2. Etablir le MLD
