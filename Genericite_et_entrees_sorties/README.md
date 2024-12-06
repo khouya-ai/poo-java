@@ -245,3 +245,5 @@ Client{nom='ahmed', prenom='khalid', adresse='A30 rue nada El Qods Sale', tel='0
 Client{nom='Ali', prenom='Samir', adresse='Sale', tel='0666666', email='g@gmail.com'}
 ```
 ---
+
+En conclusion, ce TP a permis de mettre en pratique les concepts fondamentaux de la généricité (Exercice 3) et de la gestion des fichiers (Exercice 1 et 2) en Java 

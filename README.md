@@ -5,4 +5,4 @@
 3. TP 03 : [Enoncé](Gestion%20des%20exceptions/Gestion%20des%20exceptions.pdf) - [Rapport](Gestion%20des%20exceptions/README.md) 
 4. TP 04 : [Enoncé (Collections](Collections_Streams/TP_Collections.pdf) [,Streams)](Collections_Streams/TP_Streams.pdf) - [Rapport](Collections_Streams/README.md) 
 5. TP 05 : [Enoncé](JavaFX_et_acces_aux_base_de_donnees/TP_JAVAFX_JDBC.pdf) - [Rapport](JavaFX_et_acces_aux_base_de_donnees/README.md) 
-6. TP 05 : [Enoncé](Genericite_et_entrees_sorties/Généricité%20et%20entrées%20sorties.pdf) - [Rapport](Genericite_et_entrees_sorties/README.md) 
+6. TP 06 : [Enoncé](Genericite_et_entrees_sorties/Généricité%20et%20entrées%20sorties.pdf) - [Rapport](Genericite_et_entrees_sorties/README.md) 
