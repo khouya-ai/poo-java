@@ -9,7 +9,7 @@
 
 Ce projet illustre les bases du multithreading en Java avec deux exercices : l’un sur la création de threads et l’autre sur les calculs parallèles, en utilisant l’interface `Runnable`.
 ### Exercice 1: 
-Dans cet exercice, nous créons une classe `Talkative` qui affiche un identifiant unique 100 fois. Plusieurs thre[README.md](..%2FREADME.md)ads sont instanciés pour observer l'exécution concurrente.
+Dans cet exercice, nous créons une classe `Talkative` qui affiche un identifiant unique 100 fois. Plusieurs threads sont instanciés pour observer l'exécution concurrente.
 1. **Définition de la classe :** La classe `Talkative` implémente l'interface `Runnable`, ce qui lui permet de définir une méthode `run` pour l'exécution des threads.
 2. **Création des threads :** Dix instances de `Thread` sont créées, chacune encapsulant une instance de `Talkative` avec un entier unique.
 3. **Exécution des threads :** En utilisant la méthode `start`, les threads s'exécutent, illustrant un ordre d'exécution non déterministe.
@@ -112,5 +112,4 @@ public static void main(String[] args) throws InterruptedException {
 ```
 ---
 
-## Conclusion
 En conclusion, ce projet démontre l'efficacité du multithreading en Java pour améliorer les performances et exploiter les ressources système.
